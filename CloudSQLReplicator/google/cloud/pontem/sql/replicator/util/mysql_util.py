@@ -22,6 +22,7 @@ from mysql.connector import errorcode
 
 from pontem.sql.replicator.util import mysql_constants
 from pontem.sql.replicator.util import util_errors
+from pontem.sql.replicator.util.storage import get_bucket
 
 
 class MySQL(object):
