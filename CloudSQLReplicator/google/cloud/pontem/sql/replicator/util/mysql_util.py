@@ -20,8 +20,8 @@ import subprocess
 import mysql.connector
 from mysql.connector import errorcode
 
-import mysql_constants
-import util_errors
+from pontem.sql.replicator.util import mysql_constants
+from pontem.sql.replicator.util import util_errors
 
 
 class MySQL(object):

@@ -20,7 +20,7 @@ import httplib2
 
 import google.auth
 
-from google.cloud.pontem.sql import replicator
+from pontem.sql import replicator
 
 # GCP API constants
 

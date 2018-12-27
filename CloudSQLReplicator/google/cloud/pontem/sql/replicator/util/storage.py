@@ -18,7 +18,7 @@ import logging
 import google.auth
 from google.cloud import storage
 
-from google.cloud.pontem.sql.replicator.util import gcp_api_util
+from pontem.sql.replicator.util import gcp_api_util
 
 GCP_STORAGE_SCOPE = frozenset(
     ['https://www.googleapis.com/auth/devstorage.read_write']

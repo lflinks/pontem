@@ -17,7 +17,7 @@ import re
 
 import google.auth
 
-from google.cloud.pontem.sql.replicator.util import gcp_api_util
+from pontem.sql.replicator.util import gcp_api_util
 
 COMPUTE_SERVICE = 'compute'
 COMPUTE_SERVICE_VERSION = 'v1'
